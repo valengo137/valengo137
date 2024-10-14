@@ -1,3 +1,53 @@
+/* Font used on website */
+
+html{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Text;
+    src: url(text.ttf);
+}
+body{
+    margin: 0;
+}
+
 header{
-    font-family: ''
+    font-family: Text;
+    display: inline-flex;   
+    margin: 0; 
+    height: 13vh;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px; /* Some padding */
+    background: linear-gradient(45deg, white 10%, rgb(119, 206, 228) 30%, rgb(111, 202, 251) 50%, rgb(243, 210, 210) 70%,rgb(246, 101, 101) 90%, rgb(248, 82, 82) 100%);
+    justify-content: space-between;
+    border-radius: 0% 0% 0% 20%;
+}
+
+.nav{
+    right: 0;
+    top: 0;
+    align-self: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.nav a:active{
+    text-decoration: none; 
+}
+
+.logo{
+    height: 100%;
+}
+
+.intro{
+    background-image: 
 }
