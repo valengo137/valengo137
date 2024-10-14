@@ -4,13 +4,14 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Val's Hut</title>
     <meta name="Val's Hut" content="Valery's Coding Hut to showcase their stuff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="styles.css">
     <script src="sci.js"></script>
     <link rel="icon" type="image/x-icon" href="photos/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -42,7 +43,7 @@
 
 
 <body>
-    <header>
+    <header id="header">
         <a href="index.html">
             <img src="photos/logo.svg" alt="Val's Hut logo" class="logo"></img>
         </a>
@@ -50,26 +51,48 @@
             <a href="#Intro">Intro</a>
             <a href="#Coding">Coding</a>
             <a href="#Choir">Choir</a>
-            <a href="Tarot">Tarot</a>
-            <a href="#Volunteer">Volunteer</a>
-            <a href="#Contact">Contact</a> 
+            <a href="#Giving">Giving</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact">Contact</a>
             <!-- CHECK FILE PATH BEFORE LOCKING IN -->
         </div>
     </header>
     <main>
-        <body>
             <section id="Intro" class="intro">
-                <div id="intro_back">                             
+                <div id="intro_back">
                 </div>
-                <img src = "photos/logo.svg" alt="Val's Hut, Logo"/>               
+                <div class="intro_content">
+                    <div class="intro_content_left">
+                        <h3 id="title">MAIN QUESTS</h3>
+                        <ul class="list_achieve">
+                            <li><a href="#Coding">Coding for Life</a></li>
+                            <li><a href="#Choir">Singing to Souls</a></li>
+                        </ol>
+                        <p></p>
+                    </div>
+                    <img src="photos/logo.svg" alt="Val's Hut, Logo" />
 
-                </h3>
-                
+                    <div class="intro_content_right">
+                        <h3 id="title">
+                            SIDE QUESTS
+                        </h3>
+                        <ul class="list_achieve">
+                            <li><a href="#Giving">Giving out Love</a></li>
+                            <li><a href="#Work">Working for Change</a></li>                        </ul>
+                        <p></p>
+                    </div>
+                    <div class="custom-shape-divider-bottom-1728925114">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        </svg>
+                    </div>
+                </div>  
+
             </section>
             <section class="coding" id="Coding">
-                <h3>
-                                        
-                </h3>
+                <div class="coding_content">
+                    <div></div>
+                </div>
             </section>
             <section class="choir" id="Choir">
                 <h3>
@@ -85,7 +108,6 @@
             <section class="contact" id="Contact">
                 <h3></h3>
             </section>
-        </body>
     </main>
     <footer>
     </footer>
