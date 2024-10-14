@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+Welcome to my portfolio. This is Valery, and I am currently figuring out my life with coding 🥳👨🏼‍💻.
+
+Visit the link to see my CV. Thank you!
+
+Valery
 <!--
 **valengo137/valengo137** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
