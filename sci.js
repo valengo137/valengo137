@@ -9,3 +9,4 @@ function scrollFunction() {
     document.getElementById("header").style.height = "13vh";
   }
 }
+// Code taken from https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp - tutorial
