@@ -292,13 +292,16 @@ main{
 
 .choir{
     background-image: linear-gradient(to bottom right, rgb(128, 75, 241),rgb(102, 165, 243),rgb(30, 55, 180));
-    height: 80vh;
+    height: 100vh;
     position: relative;
     border: none;
 }
 .choir_content{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
+/* CHOIR TITLE */
 .just_title{
     text-align: center;
     font-family: TITLE;
@@ -333,6 +336,36 @@ main{
     display: block;
 }
 
+/* CHOIR CONTENT */
+
+.choir_text{
+    margin-top: 100px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choir_pic{
+    height: 50vh;
+    width: fit-content;
+    border-style:double;
+}
+
+.choir_pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.actualtext{
+    font-family: text;
+}
+
+.actualtext h3{
+    font-family: title;
+    font-size: 50px;
+    font-style: italic;
+}
+
 
 /* DIVIDER, END CHOIR */
 .custom-shape-divider-bottom-1728969816 {
@@ -356,12 +389,12 @@ main{
 
 .custom-shape-divider-bottom-1728969816 .shape-fill {
     fill: #e6f776;
+    border: none;
 }
 
 .giving{
     background-image: linear-gradient(to bottom,#e6f776, yellow, rgb(255, 255, 255));
-    height: 50vh;
+    height: 50vh;    
     border: none;
 
 }
-
