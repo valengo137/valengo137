@@ -340,14 +340,14 @@ main{
 
 .choir_text{
     margin-top: 100px;
-    padding: 0 50px;
+    padding: 0 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .choir_pic{
-    height: 50vh;
-    width: fit-content;
+    height: 350px;
+    max-width: 50%;
     border-style:double;
 }
 
@@ -358,14 +358,39 @@ main{
 
 .actualtext{
     font-family: text;
+    width: 50%;
+}
+
+.actualtext ul{
+    list-style-type:symbols();
+    font-weight: bold;
+    word-wrap: break-word;
+    font-family: Title; 
+}
+
+.actualtext li{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: text;
+    font-style: normal;
 }
 
 .actualtext h3{
     font-family: title;
     font-size: 50px;
     font-style: italic;
+    margin: 0;
+    padding: 20px;
 }
 
+.choir_link{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.choir_link:hover{
+    color: yellowgreen;
+}
 
 /* DIVIDER, END CHOIR */
 .custom-shape-divider-bottom-1728969816 {
