@@ -1,8 +1,9 @@
 /* Font used on website */
 
-html{
+html {
     overflow-x: none;
 }
+
 @font-face {
     font-family: Text;
     src: url(text.ttf);
@@ -12,12 +13,13 @@ html{
     font-family: Title;
     src: url(title.otf);
 }
-body{
+
+body {
     margin: 0;
 }
 
 
-.title{
+.title {
     font-family: Title;
     font-size: 60px;
     margin-top: 5vh;
@@ -25,97 +27,100 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
-a{
+
+a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-header{
+
+header {
     font-family: Title;
-    display: inline-flex;   
-    margin: 0; 
+    display: inline-flex;
+    margin: 0;
     height: 13vh;
     top: 0;
     width: 100%;
     position: fixed;
-    background: linear-gradient(45deg, white 10%, rgb(119, 206, 228) 30%, rgb(111, 202, 251) 50%, rgb(243, 210, 210) 70%,rgb(246, 101, 101) 90%, rgb(248, 82, 82) 100%);
+    background: linear-gradient(45deg, white 10%, rgb(119, 206, 228) 30%, rgb(111, 202, 251) 50%, rgb(243, 210, 210) 70%, rgb(246, 101, 101) 90%, rgb(248, 82, 82) 100%);
     justify-content: space-between;
     transition: 0.4s;
 }
 
-.nav{
+.nav {
     right: 0;
     top: 0;
     align-self: center;
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
     color: black;
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.54rem;
     padding-right: 1rem;
     text-transform: uppercase;
 }
 
-.nav a:active{
-    text-decoration: none; 
+.nav a:active {
+    text-decoration: none;
 }
 
-.logo{
+.logo {
     height: 100%;
 }
 
-main{
+main {
     margin-top: calc(13vh);
     display: flex;
     flex-direction: column;
 }
 
-.intro{
+.intro {
     width: 100%;
     height: 400px;
     position: relative;
     display: flex;
     justify-content: center;
-    
+
 }
 
-#intro_back{
+#intro_back {
     height: 100%;
-    width:100%;
+    width: 100%;
     background-image: url(photos/intro.background.jpg);
     background-size: contain;
     opacity: 0.4;
     position: relative;
 }
 
-.intro img{
+.intro img {
     top: 0px;
     height: 100%;
     position: absolute;
-}   
+}
 
-.intro_content{
+.intro_content {
     position: absolute;
     align-items: center;
     height: 100%;
-    width: 100%; /* or less */
+    width: 100%;
+    /* or less */
     display: inline-flex;
     justify-content: space-around;
 }
 
-.intro_content_left{
+.intro_content_left {
     text-align: left;
     margin-right: 10vw;
 }
 
-.intro_content_right{
+.intro_content_right {
     text-align: right;
     margin-left: 10vw;
 }
 
 
-.intro_content #title{
+.intro_content #title {
     left: 50%;
     font-size: 50px;
     font-weight: 1000;
@@ -123,23 +128,26 @@ main{
     margin: 10px;
 }
 
-.intro_content_left .list_achieve{
+.intro_content_left .list_achieve {
     font-size: 30px;
     margin: 0;
-    display: inline-block; text-align: left;
+    display: inline-block;
+    text-align: left;
 }
 
-.intro_content_right .list_achieve{
+.intro_content_right .list_achieve {
     font-size: 30px;
     margin: 0;
-    display: inline-block; 
+    display: inline-block;
     text-align: right;
     direction: rtl;
 }
-.intro_content_right ul{
+
+.intro_content_right ul {
     text-align: right;
 }
-.list_achieve{
+
+.list_achieve {
     font-family: Text;
 }
 
@@ -161,10 +169,10 @@ main{
 }
 
 .custom-shape-divider-bottom-1728925114 .shape-fill {
-    fill:black;
+    fill: black;
 }
 
-.coding{
+.coding {
     height: 500px;
     width: 100%;
     position: relative;
@@ -172,18 +180,18 @@ main{
 }
 
 
-.coding_content{
+.coding_content {
     text-align: center;
     color: white;
     margin: 3vw;
     height: 100%;
 }
 
-.coding_top{
+.coding_top {
     margin-top: -40px;
 }
 
-.coding_left{
+.coding_left {
     float: left;
     width: 50%;
     margin-top: 3vh;
@@ -192,7 +200,7 @@ main{
     display: block;
 }
 
-.coding_left button{
+.coding_left button {
     position: relative;
     border-radius: 15px;
     margin-right: 2%;
@@ -200,23 +208,26 @@ main{
     border-style: none;
 }
 
-.coding_left a{
+.coding_left a {
     width: 100%;
     height: 100%;
     transition: 4s;
 }
 
-.coding_left img{
+.coding_left img {
     min-width: 100%;
 }
-.coding_right{
+
+.coding_right {
     float: right;
     text-align: left;
 }
-.coding .title{
+
+.coding .title {
     margin-top: 80px;
 }
-#ScienceTimes{
+
+#ScienceTimes {
     max-width: 350px;
     max-height: 110px;
     min-height: 50px;
@@ -225,50 +236,51 @@ main{
     padding: 0;
 }
 
-#ScienceTimes img{
+#ScienceTimes img {
     width: 100%;
 }
 
-#CollegeSearch{
+#CollegeSearch {
     max-width: 250px;
     min-width: 19px;
     height: auto;
     background-color: transparent;
 }
 
-#CollegeSearch img{
+#CollegeSearch img {
     width: 100%;
 }
 
-.coding_right li{
+.coding_right li {
     font-family: Text;
     color: white;
     font-size: 2rem;
 }
 
-.coding_right ul{
+.coding_right ul {
     list-style-type: circle;
 
 }
 
-.level{
-    display:flex;
+.level {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.coding_right a{
+.coding_right a {
     color: white;
     text-decoration: none;
 }
 
-.coding_right a:hover{
+.coding_right a:hover {
     color: yellowgreen;
 }
 
-.coding_right a:active{
+.coding_right a:active {
     color: none;
 }
+
 /* divider between coding and choir */
 .custom-shape-divider-top-1728968974 {
     position: absolute;
@@ -290,92 +302,97 @@ main{
     fill: black;
 }
 
-.choir{
-    background-image: linear-gradient(to bottom right, rgb(128, 75, 241),rgb(102, 165, 243),rgb(30, 55, 180));
-    height: 100vh;
+.choir {
+    background-image: linear-gradient(to bottom right, rgb(128, 75, 241), rgb(102, 165, 243), rgb(30, 55, 180));
+    height: 800px;
     position: relative;
     border: none;
 }
-.choir_content{
+
+.choir_content {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
+
 /* CHOIR TITLE */
-.just_title{
+.just_title {
     text-align: center;
     font-family: TITLE;
     display: inline-flex;
     font-size: 90px;
     position: absolute;
-    top: 100px; right: 50%;
-    transform: translate(50%,-50%);  
+    top: 100px;
+    right: 50%;
+    transform: translate(50%, -50%);
 }
-.char1{
+
+.char1 {
     transform: translateX(-12%) translateY(40%) rotate(6deg);
     display: block;
 }
 
-.char2{
-    transform: translateX(21%) translateY(47%) rotate(4deg);;
-        display: block;
-}
-
-.char3{
-    transform: translateX(50%) translateY(50%) rotate(0);  
-     display: block;
-}
-
-.char4{
-    transform: translateX(187%) translateY(49%) rotate(-5deg); 
+.char2 {
+    transform: translateX(21%) translateY(47%) rotate(4deg);
+    ;
     display: block;
 }
 
-.char5{
+.char3 {
+    transform: translateX(50%) translateY(50%) rotate(0);
+    display: block;
+}
+
+.char4 {
+    transform: translateX(187%) translateY(49%) rotate(-5deg);
+    display: block;
+}
+
+.char5 {
     transform: translateX(126%) translateY(41%) rotate(-14deg);
     display: block;
 }
 
 /* CHOIR CONTENT */
 
-.choir_text{
+.choir_text {
     margin-top: 100px;
     padding: 0 100px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.choir_pic{
+.choir_pic {
     height: 350px;
     max-width: 50%;
-    border-style:double;
+    border-style: double;
 }
 
-.choir_pic img{
+.choir_pic img {
     width: 100%;
     height: 100%;
 }
 
-.actualtext{
+.actualtext {
     font-family: text;
     width: 50%;
 }
 
-.actualtext ul{
-    list-style-type:symbols();
+.actualtext ul {
+    list-style-type: symbols();
     font-weight: bold;
     word-wrap: break-word;
-    font-family: Title; 
+    font-family: Title;
 }
 
-.actualtext li{
+.actualtext li {
     font-size: 30px;
     font-weight: normal;
     font-family: text;
     font-style: normal;
 }
 
-.actualtext h3{
+.actualtext h3 {
     font-family: title;
     font-size: 50px;
     font-style: italic;
@@ -383,12 +400,12 @@ main{
     padding: 20px;
 }
 
-.choir_link{
+.choir_link {
     font-style: italic;
     text-decoration: underline;
 }
 
-.choir_link:hover{
+.choir_link:hover {
     color: yellowgreen;
 }
 
@@ -408,7 +425,7 @@ main{
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 138px;
+    height: 140px;
     border: none;
 }
 
@@ -417,9 +434,107 @@ main{
     border: none;
 }
 
-.giving{
-    background-image: linear-gradient(to bottom,#e6f776, yellow, rgb(255, 255, 255));
-    height: 50vh;    
+.giving {
+    background-image: linear-gradient(to bottom, #e6f776, yellow, rgb(255, 255, 255));
+    height: 600px;
     border: none;
-
 }
+
+.giving_title {
+    font-size: 90px;
+    font-family: Title;
+    position: relative;
+    /* top: -10%; */
+    right: 50%;
+    transform: translateY(-180%);
+    display: inline-flex;
+    margin-top: 30px;
+    left: 50%;
+}
+
+.giving_title .char1 {
+    transform: translateX(-268%) translateY(31%) rotate(-9deg);
+    display: block;
+}
+
+.giving_title .char2 {
+    transform: translateX(-468%) translateY(26%) rotate(-8deg);
+    display: block;
+}
+
+.giving_title .char3 {
+    transform: translateX(-166%) translateY(23%) rotate(-4deg);
+    display: block;
+}
+
+.giving_title .char4 {
+    transform: translateX(-265%) translateY(21%) rotate(-1deg);
+    display: block;
+}
+
+
+.giving_title .char5 {
+    transform: translateX(-60%) translateY(25%) rotate(6deg);
+    display: block;
+}
+
+
+.giving_title .char6 {
+    transform: translateX(-15%) translateY(32%) rotate(8deg);
+    display: block;
+}
+
+/* GIVING CONTENT */
+/* PIC CONTAINER + PIC */
+
+.giving_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#giving_recent{
+    font-size: 50px;
+    font-family: Title;
+}
+
+.giving_text ul{
+    text-align: left;
+    display: block;
+}
+
+.giving_text{
+    float: right;
+}
+
+/* #ScienceTimes {
+    max-width: 350px;
+    max-height: 110px;
+    min-height: 50px;
+    min-width: 17px;
+    border-radius: 0;
+    padding: 0;
+}
+
+#ScienceTimes img {
+    width: 100%;
+}
+.coding_left {
+    float: left;
+    width: 50%;
+    margin-top: 3vh;
+    position: relative;
+    height: 70%;
+    display: block;
+}
+
+#CollegeSearch {
+    max-width: 250px;
+    min-width: 19px;
+    height: auto;
+    background-color: transparent;
+}
+
+#CollegeSearch img {
+    width: 100%;
+} */
+ 
