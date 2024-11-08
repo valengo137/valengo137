@@ -489,52 +489,62 @@ main {
 
 .giving_content{
     display: flex;
-    justify-content: center;
-    align-items: center;}
-
-#giving_recent{
-    font-size: 50px;
-    font-family: Title;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 30px;
 }
 
-.giving_text ul{
+#giving_recent{
+    font-size: 70px;
+    font-family: Title;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.giving_right li{
+    font-family: text;
+    font-size: 30px;
+}
+.giving_rignt ul{
     text-align: left;
     display: block;
 }
 
-.giving_text{
+.giving_right{
     float: right;
+    width: 50%;
+    margin-top: -100px;
 }
 
-/* #ScienceTimes {
-    max-width: 350px;
-    max-height: 110px;
+.giving_left{
+    float:left;
+    margin-left:100px;
+    margin-top: -100px;
+}
+
+#veteran {
+    max-width: 400px;
+    max-height: 400px;
     min-height: 50px;
     min-width: 17px;
-    border-radius: 0;
+    border-radius: 15px;
     padding: 0;
 }
 
-#ScienceTimes img {
+#veteran img {
     width: 100%;
-}
-.coding_left {
-    float: left;
-    width: 50%;
-    margin-top: 3vh;
-    position: relative;
-    height: 70%;
-    display: block;
+    border-radius: 10px;
 }
 
-#CollegeSearch {
-    max-width: 250px;
+#volunteer2 {
+    max-width: 400px;
     min-width: 19px;
     height: auto;
-    background-color: transparent;
 }
 
-#CollegeSearch img {
+#volunteer2 img {
     width: 100%;
-} */
- 
+    border-radius: 15px;
+    padding: 0;
+}
