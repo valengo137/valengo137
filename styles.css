@@ -435,8 +435,8 @@ main {
 }
 
 .giving {
-    background-image: linear-gradient(to bottom, #e6f776, yellow, rgb(255, 255, 255));
-    height: 600px;
+    background-image: linear-gradient(to bottom, #e6f776, yellow);
+    height: 500px;
     border: none;
 }
 
@@ -548,3 +548,39 @@ main {
     border-radius: 15px;
     padding: 0;
 }
+
+.custom-shape-divider-top-1733377746 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1733377746 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1733377746 .shape-fill {
+    fill: yellow;
+}
+/* WORK */
+
+.work{
+    background-color: linear-gradient(80deg; );
+    height: 80vh;
+}
+
+.work_content{
+    margin: 100px;
+}
+
+#work_title{
+    text-align: center;
+    font-size: 70px;
+}
+
